@@ -82,7 +82,8 @@
   }
   
   .bodyCarouselle {
-    max-width: 37.5rem;
+    align-items: center;
+    text-align: center;
     margin: 0 auto;
     padding: 0 1.25rem;
     font-family: 'Lato', sans-serif;
@@ -145,19 +146,28 @@
     counter-increment: item;
   }
   
-  .carousel__slide:nth-child(even) {
-    background-color: #99f;
+  .carousel__slide:nth-child(1) {
+    background-image: url("./img/Screenshot\ from\ 2024-09-26\ 13-37-04.png");
+    background-size: cover;  /* L'image couvre toute la div */
+    width: 100%; /* Ajuster la largeur de la div */
+  }
+  .carousel__slide:nth-child(2) {
+    background-image: url("./img/mobilSolaris.png");
+    background-size: cover;  /* L'image couvre toute la div */
+    width: 100%; /* Ajuster la largeur de la div */
+  }
+  .carousel__slide:nth-child(3) {
+    background-image: url("./img/commanderobot.png");
+    background-size: cover;  /* L'image couvre toute la div */
+    width: 100%; /* Ajuster la largeur de la div */
+  }
+  .carousel__slide:nth-child(4) {
+    background-image: url("./img/solaris.png");
+    background-size: cover;  /* L'image couvre toute la div */
+    width: 100%; /* Ajuster la largeur de la div */
   }
   
-  .carousel__slide:before {
-    content: counter(item);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%,-40%,70px);
-    color: #fff;
-    font-size: 2em;
-  }
+
   
   .carousel__snapper {
     position: absolute;
