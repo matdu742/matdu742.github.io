@@ -346,6 +346,54 @@
     
             </div>
 
+            <!-- Carrousel section moved just above contact section -->
+<div class="flex flex-col items-center mt-10 mb-10">
+    <h2 class="text-3xl font-bold text-center text-blue-600 md:text-4xl lg:text-6xl mb-6">Mes Réalisations</h2>
+    <div class="max-w-2xl w-full">
+        <section class="carousel bodyCarouselle" aria-label="Gallery">
+            <ol class="carousel__viewport">
+                <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper">
+                        <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                        <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                    </div>
+                </li>
+                <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                </li>
+                <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+                </li>
+                <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                    <div class="carousel__snapper"></div>
+                    <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                    <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+                </li>
+            </ol>
+            <aside class="carousel__navigation">
+                <ol class="carousel__navigation-list">
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide1" class="carousel__navigation-button"></a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide2" class="carousel__navigation-button"></a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide3" class="carousel__navigation-button"></a>
+                    </li>
+                    <li class="carousel__navigation-item">
+                        <a href="#carousel__slide4" class="carousel__navigation-button"></a>
+                    </li>
+                </ol>
+            </aside>
+        </section>
+    </div>
+</div>
+
             
             <div>
                 <h1 class="text-center text-3xl font-bold text-blue-600 mx-2 mb-6 my-2 md:text-4xl lg:text-6xl" id="contacteMoi">Contactez-moi</h1>
@@ -365,69 +413,7 @@
 
         </div>
 
-        <div class="max-w-2xl items-center ">
-            <section class="carousel bodyCarouselle" aria-label="Gallery">
-                <ol class="carousel__viewport">
-                  <li id="carousel__slide1"
-                      tabindex="0"
-                      class="carousel__slide">
-                    <div class="carousel__snapper">
-                      <a href="#carousel__slide4"
-                         class="carousel__prev">Go to last slide</a>
-                      <a href="#carousel__slide2"
-                         class="carousel__next">Go to next slide</a>
-                    </div>
-                  </li>
-                  <li id="carousel__slide2"
-                      tabindex="0"
-                      class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide1"
-                       class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide3"
-                       class="carousel__next">Go to next slide</a>
-                  </li>
-                  <li id="carousel__slide3"
-                      tabindex="0"
-                      class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide2"
-                       class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide4"
-                       class="carousel__next">Go to next slide</a>
-                  </li>
-                  <li id="carousel__slide4"
-                      tabindex="0"
-                      class="carousel__slide">
-                    <div class="carousel__snapper"></div>
-                    <a href="#carousel__slide3"
-                       class="carousel__prev">Go to previous slide</a>
-                    <a href="#carousel__slide1"
-                       class="carousel__next">Go to first slide</a>
-                  </li>
-                </ol>
-                <aside class="carousel__navigation">
-                  <ol class="carousel__navigation-list">
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide1"
-                         class="carousel__navigation-button">Go to slide 1</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide2"
-                         class="carousel__navigation-button">Go to slide 2</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide3"
-                         class="carousel__navigation-button">Go to slide 3</a>
-                    </li>
-                    <li class="carousel__navigation-item">
-                      <a href="#carousel__slide4"
-                         class="carousel__navigation-button">Go to slide 4</a>
-                    </li>
-                  </ol>
-                </aside>
-              </section>
-        </div>
+
     
  
         
@@ -440,7 +426,7 @@
     <footer class="bg-gray-800 py-6 md:text-xl lg:text-3xl">
         <div class="max-w-screen-xl mx-auto text-center text-gray-400">
             <p>&copy; 2024 Mateo Souliere. Tous droits réservés.</p>
-            <p class="mt-2"><a href="#" class="underline hover:text-blue-500">Mentions légales</a> | <a href="#" class="underline hover:text-blue-500">Politique de confidentialité</a></p>
+            <p class="mt-2"><a href="./mentionLegal.html" class="underline hover:text-blue-500">Mentions légales</a> | <a href="#" class="underline hover:text-blue-500">Politique de confidentialité</a></p>
         </div>
     </footer>
     
